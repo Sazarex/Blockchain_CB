@@ -14,7 +14,7 @@ namespace Blockchain
     /// Блок данных
     /// </summary>
     [DataContract]
-    public class Block
+    public class Block//Блок
     {
         public int ID { get; private set; }// Идентификатор
 
