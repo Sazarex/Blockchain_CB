@@ -62,7 +62,7 @@ namespace Blockchain
 
             Data = data;
             User = user;
-            PreviousHash = block.Hash; //Хэш от Last-блока
+            PreviousHash = block.Hash; //Хеш от Last-блока
             Created = DateTime.UtcNow;
             ID = block.ID + 1;
 
