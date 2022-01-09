@@ -43,7 +43,7 @@ namespace Blockchain
             Hash = GetHash(data);
         }
 
-        public Block(string data,string user, Block block)
+        public Block(string data,string user, Block block)//Конструктор блока
         {
             if(string.IsNullOrWhiteSpace(data))
             {
