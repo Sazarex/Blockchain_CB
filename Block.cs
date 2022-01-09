@@ -109,7 +109,7 @@ namespace Blockchain
         /// Выполнить сериализацию объекта в JSON строку
         /// </summary>
         /// <returns></returns>
-        public string Serialize()
+        public string Serialize()//Сериализация
         {
 
             var jsonSerializer = new DataContractJsonSerializer(typeof(Block));
@@ -128,7 +128,7 @@ namespace Blockchain
         /// </summary>
         /// <param name="json"></param>
         /// <returns></returns>
-        public static Block Deserialize (string json)
+        public static Block Deserialize (string json)//Десериализация
         {
             var jsonSerializer = new DataContractJsonSerializer(typeof(Block));
 
